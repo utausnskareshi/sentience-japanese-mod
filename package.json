@@ -1,0 +1,28 @@
+{
+  "name": "sentience-jp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sentience: The Android's Tale 非公式日本語化パッチ（翻訳プラグイン・作業用CLI・訳文データ）",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json && tsc -p src/runtime/tsconfig.json",
+    "test": "vitest run",
+    "extract": "node --disable-warning=ExperimentalWarning src/tools/extract.ts",
+    "context": "node --disable-warning=ExperimentalWarning src/tools/context.ts",
+    "batches": "node --disable-warning=ExperimentalWarning src/tools/batches.ts",
+    "merge": "node --disable-warning=ExperimentalWarning src/tools/merge.ts",
+    "verify": "node --disable-warning=ExperimentalWarning src/tools/verify.ts",
+    "build": "node --disable-warning=ExperimentalWarning src/tools/build.ts",
+    "package": "node --disable-warning=ExperimentalWarning src/tools/package.ts",
+    "dev": "node --disable-warning=ExperimentalWarning src/tools/devserver.ts"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "esbuild": "0.28.2",
+    "typescript": "7.0.2",
+    "vitest": "5.1.1"
+  }
+}

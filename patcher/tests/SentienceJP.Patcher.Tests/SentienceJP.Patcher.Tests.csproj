@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    パッチツールの画面（MainViewModel）の振る舞いのテスト。
+    判定は Core の純粋関数でテストし、ここでは ViewModel の配線（操作の開始の排他・ゲームフォルダが無くなった場合の案内・ログの案内）だけを確かめる。
+    偽のダイアログ・偽のプロセス確認と、テンポラリの偽ゲームフォルダで動かす（実ゲームには触れない。画面は表示しない）。
+    WPF の UI スレッドを模擬するため、テストの中で STA スレッドの Dispatcher を回す。
+    パッケージは Core のテストプロジェクトと同じもの・同じ版を使う。
+  -->
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.4" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\SentienceJP.Patcher\SentienceJP.Patcher.csproj" />
+  </ItemGroup>
+
+</Project>

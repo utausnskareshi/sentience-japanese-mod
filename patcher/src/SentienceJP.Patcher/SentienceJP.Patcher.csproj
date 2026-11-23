@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    パッチツールの WPF アプリ（薄い UI 層）。ロジックはすべて SentienceJP.Core に置く。
+    ペイロード（TypeScript 側が生成する dist/payload）を埋め込みリソースとして同梱する。
+  -->
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>SentienceJP.Patcher</RootNamespace>
+    <AssemblyName>SentienceJP-Patcher</AssemblyName>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <!--
+      参照するフレームワーク・パッケージの付属リソース（言語別のサテライトアセンブリ）は日本語だけを同梱する（出力を小さくするため）。
+      ペイロードの埋め込みリソースはこの設定の影響を受けない（下の WithCulture=false で exe 本体に埋め込む）。
+    -->
+    <SatelliteResourceLanguages>ja</SatelliteResourceLanguages>
+
+    <!-- ペイロードの場所（リポジトリ直下の dist/payload）。コマンドラインで上書き可能。 -->
+    <PayloadDirectory Condition="'$(PayloadDirectory)' == ''">$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\..\..\dist\payload'))</PayloadDirectory>
+
+    <!-- Release（配布用）ではペイロード必須。Debug では未生成でもビルドできる（実行時にフォルダから探す）。 -->
+    <RequirePayload Condition="'$(RequirePayload)' == '' and '$(Configuration)' == 'Release'">true</RequirePayload>
+    <RequirePayload Condition="'$(RequirePayload)' == ''">false</RequirePayload>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SentienceJP.Core\SentienceJP.Core.csproj" />
+  </ItemGroup>
+
+  <!--
+    ペイロードの存在確認と埋め込み。
+    リソース名は "payload/<相対パス>"（区切りは "/"）に正規化する。
+    WithCulture=false: ファイル名にカルチャ名を含むファイル（例: "*.ja.json"）が、言語別のサテライトアセンブリへ
+    振り分けられて exe 本体から読めなくなるのを防ぐ（すべて exe 本体に埋め込む）。
+  -->
+  <Target Name="SentienceJPEmbedPayload" BeforeTargets="PrepareForBuild">
+    <Error Condition="'$(RequirePayload)' == 'true' and !Exists('$(PayloadDirectory)\manifest.json')"
+           Text="ペイロードが見つかりません: $(PayloadDirectory)\manifest.json — リポジトリ直下で TypeScript 側のペイロード生成を実行してから、再度ビルドしてください。" />
+    <Message Condition="'$(RequirePayload)' != 'true' and !Exists('$(PayloadDirectory)\manifest.json')"
+             Importance="high"
+             Text="（開発ビルド）ペイロードが未生成のため埋め込みを省略しました: $(PayloadDirectory)" />
+    <ItemGroup Condition="Exists('$(PayloadDirectory)\manifest.json')">
+      <_SentienceJPPayloadFile Include="$(PayloadDirectory)\**\*" />
+      <EmbeddedResource Include="@(_SentienceJPPayloadFile)">
+        <LogicalName>payload/$([System.String]::Copy('%(_SentienceJPPayloadFile.RecursiveDir)').Replace('\', '/'))%(_SentienceJPPayloadFile.Filename)%(_SentienceJPPayloadFile.Extension)</LogicalName>
+        <WithCulture>false</WithCulture>
+      </EmbeddedResource>
+    </ItemGroup>
+    <Message Condition="Exists('$(PayloadDirectory)\manifest.json')" Importance="high"
+             Text="ペイロードを埋め込みます: @(_SentienceJPPayloadFile->Count()) ファイル（$(PayloadDirectory)）" />
+  </Target>
+
+</Project>

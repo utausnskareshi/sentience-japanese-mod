@@ -1,0 +1,47 @@
+{
+  "pictures": {
+    "Intro1": [
+      { "x": 520, "y": 272, "width": 240, "height": 42, "fill": "#000000", "text": "2127年", "fontSize": 30 }
+    ],
+    "Intro2": [
+      { "x": 520, "y": 272, "width": 240, "height": 42, "fill": "#000000", "text": "2127年", "fontSize": 30 },
+      { "x": 420, "y": 316, "width": 440, "height": 48, "fill": "#000000", "text": "人間時代", "fontSize": 34 }
+    ],
+    "Intro3": [
+      { "x": 520, "y": 272, "width": 240, "height": 42, "fill": "#000000", "text": "2127年", "fontSize": 30 },
+      { "x": 420, "y": 316, "width": 440, "height": 48, "fill": "#000000", "text": "人間時代", "fontSize": 34 },
+      { "x": 270, "y": 364, "width": 740, "height": 40, "fill": "#000000", "text": "革命から25年", "fontSize": 30, "color": "rgba(255, 255, 255, 0.7)" }
+    ],
+    "BaseMap": [
+      { "x": 732, "y": 49, "width": 104, "height": 24, "fill": "#101010", "text": "医療棟", "fontSize": 17, "color": "#e01814" },
+      { "x": 276, "y": 95, "width": 108, "height": 22, "fill": "#101010", "text": "格納庫", "fontSize": 17, "color": "#e01814" },
+      { "x": 938, "y": 105, "width": 94, "height": 24, "fill": "#101010", "text": "礼拝堂", "fontSize": 17, "color": "#e01814" },
+      { "x": 510, "y": 135, "width": 108, "height": 42, "fill": "#101010", "text": "着陸場", "fontSize": 20, "color": "#e01814" },
+      { "x": 706, "y": 159, "width": 190, "height": 26, "fill": "#101010", "text": "本部", "fontSize": 18, "color": "#e01814" },
+      { "x": 264, "y": 229, "width": 134, "height": 24, "fill": "#101010", "text": "工作室", "fontSize": 17, "color": "#e01814" },
+      { "x": 480, "y": 289, "width": 178, "height": 24, "fill": "#101010", "text": "農業棟１", "fontSize": 17, "color": "#e01814" },
+      { "x": 734, "y": 291, "width": 126, "height": 24, "fill": "#101010", "text": "武器庫", "fontSize": 17, "color": "#e01814" },
+      { "x": 472, "y": 431, "width": 166, "height": 24, "fill": "#101010", "text": "研究棟", "fontSize": 17, "color": "#e01814" },
+      { "x": 308, "y": 497, "width": 184, "height": 24, "fill": "#101010", "text": "農業棟２", "fontSize": 17, "color": "#e01814" },
+      { "x": 614, "y": 497, "width": 186, "height": 24, "fill": "#101010", "text": "農業棟３", "fontSize": 17, "color": "#e01814" }
+    ],
+    "BaseMap2": [
+      { "x": 606, "y": 63, "width": 128, "height": 44, "fill": "#101010", "text": "洞窟の入口", "fontSize": 18, "color": "#e01814" },
+      { "x": 902, "y": 241, "width": 104, "height": 62, "fill": "#101010", "text": "ゼイスと\nクリードの\nテント", "fontSize": 14, "color": "#e01814" },
+      { "x": 346, "y": 261, "width": 94, "height": 44, "fill": "#101010", "text": "カロの\nテント", "fontSize": 15, "color": "#e01814" },
+      { "x": 536, "y": 311, "width": 192, "height": 26, "fill": "#101010", "text": "本部", "fontSize": 18, "color": "#e01814" },
+      { "x": 842, "y": 425, "width": 108, "height": 46, "fill": "#101010", "text": "ジラの\nテント", "fontSize": 15, "color": "#e01814" },
+      { "x": 288, "y": 429, "width": 90, "height": 44, "fill": "#101010", "text": "ウルフの\nテント", "fontSize": 15, "color": "#e01814" }
+    ]
+  },
+  "parallaxes": {
+    "PlayerChoice": [
+      { "x": 352, "y": 324, "width": 570, "height": 54, "fill": "#000000", "text": "ボディを選べ……", "fontSize": 36, "color": "#5c5c5c", "outlineColor": "rgba(0, 0, 0, 0)" }
+    ]
+  },
+  "titles1": {
+    "StarTrails": [
+      { "x": 392, "y": 683, "width": 518, "height": 34, "fill": "#9c6a3b", "text": "コントローラーを使う場合は、いずれかのボタンを押すと有効になります。", "fontSize": 18, "color": "#ffffff" }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    パッチツールのコアロジック（UI 非依存）。
+    Steam/ゲームの検出、ペイロードの検証、plugins.js の編集、適用・復元処理を担う。
+    Windows 固有の API（レジストリ、プロセス情報）を使うクラスには SupportedOSPlatform 属性を付ける。
+  -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>SentienceJP.Core</RootNamespace>
+    <AssemblyName>SentienceJP.Core</AssemblyName>
+    <!-- LibraryImport（P/Invoke のソース生成）で配列のマーシャリングを行うため -->
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- テストプロジェクトから internal メンバーを検証できるようにする -->
+    <InternalsVisibleTo Include="SentienceJP.Core.Tests" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,69 @@
+# テストとビルドの確認（main へのプッシュ・プルリクエスト・タグ "v*" のプッシュ時）。
+# 配布 Zip は成果物（Artifacts）として保存する。GitHub Release への登録は手作業で行う（自動では作らない）
+name: CI
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+
+# 読み取りのみ（リリースは手作業で作るため、書き込み権限は使わない）
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: タグとバージョン番号の一致確認（タグのとき）
+        if: startsWith(github.ref, 'refs/tags/v')
+        shell: pwsh
+        run: |
+          # タグ（v1.2.3）と package.json・Directory.Build.props のバージョンが揃っていることを確かめる
+          $tag = $env:GITHUB_REF_NAME -replace '^v', ''
+          $npm = (Get-Content -Raw -Encoding utf8 package.json | ConvertFrom-Json).version
+          $props = ([xml](Get-Content -Raw -Encoding utf8 patcher/Directory.Build.props)).Project.PropertyGroup.Version | Where-Object { $_ } | Select-Object -First 1
+          Write-Host "タグ: $tag / package.json: $npm / Directory.Build.props: $props"
+          if ($tag -ne $npm -or $tag -ne $props) {
+            Write-Error "タグとバージョン番号が一致しません（タグ: $tag / package.json: $npm / Directory.Build.props: $props）"
+            exit 1
+          }
+
+      - name: 依存パッケージのインストール
+        run: npm ci
+
+      - name: 型チェック（作業用CLI・ゲーム内プラグイン）
+        run: npm run typecheck
+
+      - name: テスト（共通処理・作業用CLIの部品）
+        run: npm test
+
+      - name: ペイロードの生成（プラグインと訳文バンドル。制御文字を原文の一覧と照合）
+        run: npm run build
+
+      - name: パッチツールのテストと単一exeの作成
+        shell: pwsh
+        run: ./patcher/build.ps1
+
+      - name: 配布Zipの作成
+        run: npm run package
+
+      - name: 成果物のアップロード
+        uses: actions/upload-artifact@v4
+        with:
+          name: release
+          path: dist/release/
+          if-no-files-found: error

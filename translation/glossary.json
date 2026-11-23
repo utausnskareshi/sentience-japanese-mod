@@ -1,0 +1,2276 @@
+{
+  "description": "固有名詞・重要用語の訳語（台詞の引用は含めない。原文を含まない方針のため）",
+  "terms": [
+    {
+      "en": "Rocket",
+      "ja": "ロケット",
+      "kind": "人名",
+      "note": "ロイ・ハドソンの通称。アルファ基地の技師長（男性）"
+    },
+    {
+      "en": "Roy 'Rocket' Hudson",
+      "ja": "ロイ・“ロケット”・ハドソン",
+      "kind": "人名",
+      "note": "フルネーム。愛称は全角の“”で囲む"
+    },
+    {
+      "en": "Roy",
+      "ja": "ロイ",
+      "kind": "人名",
+      "note": "ロケットの名"
+    },
+    {
+      "en": "Hudson",
+      "ja": "ハドソン",
+      "kind": "人名",
+      "note": "ロケットの姓"
+    },
+    {
+      "en": "Yuria",
+      "ja": "ユリア",
+      "kind": "人名",
+      "note": "アルファ基地の副技師長（女性）。ギティの恋人"
+    },
+    {
+      "en": "Yuria Sisco",
+      "ja": "ユリア・シスコ",
+      "kind": "人名",
+      "note": "フルネーム"
+    },
+    {
+      "en": "Sisco",
+      "ja": "シスコ",
+      "kind": "人名",
+      "note": "ユリアの姓"
+    },
+    {
+      "en": "Gitty",
+      "ja": "ギティ",
+      "kind": "人名",
+      "note": "アルファ基地の機長（パイロット、女性）。自由星系出身で独特の話し方。本名不明"
+    },
+    {
+      "en": "Walden",
+      "ja": "ウォールデン",
+      "kind": "人名",
+      "note": "通常はジョン・ウォールデン（医務官、男性）。父ロバートも同姓なので文脈で区別"
+    },
+    {
+      "en": "John Walden",
+      "ja": "ジョン・ウォールデン",
+      "kind": "人名",
+      "note": "フルネーム"
+    },
+    {
+      "en": "John",
+      "ja": "ジョン",
+      "kind": "人名",
+      "note": "ウォールデンの名（主に父が呼ぶ）"
+    },
+    {
+      "en": "Robert Walden",
+      "ja": "ロバート・ウォールデン",
+      "kind": "人名",
+      "note": "ウォールデンの父。テムコ社の重役で教授。Professor Walden がこの人物を指す場面がある"
+    },
+    {
+      "en": "Robert",
+      "ja": "ロバート",
+      "kind": "人名",
+      "note": "ロバート・ウォールデンの名"
+    },
+    {
+      "en": "Dea",
+      "ja": "ディア",
+      "kind": "人名",
+      "note": "アルファ基地の総督（女性）。「デア」とはしない"
+    },
+    {
+      "en": "Dea Ortega",
+      "ja": "ディア・オルテガ",
+      "kind": "人名",
+      "note": "フルネーム"
+    },
+    {
+      "en": "Ortega",
+      "ja": "オルテガ",
+      "kind": "人名",
+      "note": "ディアの姓"
+    },
+    {
+      "en": "Piers",
+      "ja": "ピアーズ",
+      "kind": "人名",
+      "note": "教授。アルファ基地の副総督、のち総督代理（男性）。メリスの夫"
+    },
+    {
+      "en": "Piers Kendrick",
+      "ja": "ピアーズ・ケンドリック",
+      "kind": "人名",
+      "note": "フルネーム"
+    },
+    {
+      "en": "Kendrick",
+      "ja": "ケンドリック",
+      "kind": "人名",
+      "note": "ピアーズの姓"
+    },
+    {
+      "en": "Carter",
+      "ja": "カーター",
+      "kind": "人名",
+      "note": "アルファ基地の保安主任（男性、古参兵）"
+    },
+    {
+      "en": "Carter Jones",
+      "ja": "カーター・ジョーンズ",
+      "kind": "人名",
+      "note": "フルネーム"
+    },
+    {
+      "en": "Jones",
+      "ja": "ジョーンズ",
+      "kind": "人名",
+      "note": "カーターの姓"
+    },
+    {
+      "en": "Jonah",
+      "ja": "ジョナ",
+      "kind": "人名",
+      "note": "〈信仰〉の神父（男性）。聖書式の「ヨナ」にはしない"
+    },
+    {
+      "en": "Hannabelle",
+      "ja": "ハナベル",
+      "kind": "人名",
+      "note": "植物学の教授（女性）。チェットの妻。Annabelle→アナベルの慣用に倣い「ハンナベル」としない。原文の誤記 Hanabelle も同じ"
+    },
+    {
+      "en": "Hannabelle Stephens",
+      "ja": "ハナベル・スティーブンス",
+      "kind": "人名",
+      "note": "フルネーム"
+    },
+    {
+      "en": "Stephens",
+      "ja": "スティーブンス",
+      "kind": "人名",
+      "note": "ハナベルとチェット夫妻の姓"
+    },
+    {
+      "en": "Chet",
+      "ja": "チェット",
+      "kind": "人名",
+      "note": "農業技術員（男性）。ハナベルの夫"
+    },
+    {
+      "en": "Chet Stephens",
+      "ja": "チェット・スティーブンス",
+      "kind": "人名",
+      "note": "フルネーム"
+    },
+    {
+      "en": "Melis",
+      "ja": "メリス",
+      "kind": "人名",
+      "note": "気候学の教授（女性）。ピアーズの妻"
+    },
+    {
+      "en": "Melis Reyes",
+      "ja": "メリス・レイエス",
+      "kind": "人名",
+      "note": "フルネーム"
+    },
+    {
+      "en": "Reyes",
+      "ja": "レイエス",
+      "kind": "人名",
+      "note": "メリスの姓"
+    },
+    {
+      "en": "Ketty",
+      "ja": "ケティ",
+      "kind": "人名",
+      "note": "アルファ基地の技術主任（女性）"
+    },
+    {
+      "en": "Ketty Long",
+      "ja": "ケティ・ロング",
+      "kind": "人名",
+      "note": "フルネーム"
+    },
+    {
+      "en": "Long",
+      "ja": "ロング",
+      "kind": "人名",
+      "note": "ケティの姓"
+    },
+    {
+      "en": "Luna",
+      "ja": "ルナ",
+      "kind": "人名",
+      "note": "農業技術員（女性）。ウォールデンの恋人"
+    },
+    {
+      "en": "Luna Hayes",
+      "ja": "ルナ・ヘイズ",
+      "kind": "人名",
+      "note": "フルネーム"
+    },
+    {
+      "en": "Hayes",
+      "ja": "ヘイズ",
+      "kind": "人名",
+      "note": "ルナの姓"
+    },
+    {
+      "en": "Finch",
+      "ja": "フィンチ",
+      "kind": "人名",
+      "note": "農業技術員（男性）。狩猟好き"
+    },
+    {
+      "en": "Finch Anderson",
+      "ja": "フィンチ・アンダーソン",
+      "kind": "人名",
+      "note": "フルネーム"
+    },
+    {
+      "en": "Anderson",
+      "ja": "アンダーソン",
+      "kind": "人名",
+      "note": "フィンチの姓"
+    },
+    {
+      "en": "Rusty",
+      "ja": "ラスティ",
+      "kind": "人名",
+      "note": "ラッセル・ディキンソンの通称。農業技術員（男性）"
+    },
+    {
+      "en": "Russell 'Rusty' Dickinson",
+      "ja": "ラッセル・“ラスティ”・ディキンソン",
+      "kind": "人名",
+      "note": "フルネーム"
+    },
+    {
+      "en": "Russell",
+      "ja": "ラッセル",
+      "kind": "人名",
+      "note": "ラスティの名"
+    },
+    {
+      "en": "Dickinson",
+      "ja": "ディキンソン",
+      "kind": "人名",
+      "note": "ラスティの姓"
+    },
+    {
+      "en": "Hurley",
+      "ja": "ハーリー",
+      "kind": "人名",
+      "note": "農業技術員（男性）。経歴不明の一匹狼"
+    },
+    {
+      "en": "Hurley Rivera",
+      "ja": "ハーリー・リベラ",
+      "kind": "人名",
+      "note": "フルネーム"
+    },
+    {
+      "en": "Rivera",
+      "ja": "リベラ",
+      "kind": "人名",
+      "note": "ハーリーの姓"
+    },
+    {
+      "en": "Nestor",
+      "ja": "ネスター",
+      "kind": "人名",
+      "note": "主人公の創造主。テムコ社の技術者で元入植者（男性）"
+    },
+    {
+      "en": "Nestor Sano",
+      "ja": "ネスター・サノ",
+      "kind": "人名",
+      "note": "フルネーム"
+    },
+    {
+      "en": "Sano",
+      "ja": "サノ",
+      "kind": "人名",
+      "note": "ネスターの姓"
+    },
+    {
+      "en": "Sylar",
+      "ja": "サイラー",
+      "kind": "人名",
+      "note": "高名な科学者・教授（男性）。ベータ基地の調査隊を率い、のちアクリタス総督。ドラマ『HEROES』の Sylar の日本語表記に準拠"
+    },
+    {
+      "en": "Sylar Osman",
+      "ja": "サイラー・オスマン",
+      "kind": "人名",
+      "note": "フルネーム"
+    },
+    {
+      "en": "Osman",
+      "ja": "オスマン",
+      "kind": "人名",
+      "note": "サイラーの姓"
+    },
+    {
+      "en": "Sy",
+      "ja": "サイ",
+      "kind": "人名",
+      "note": "カロがサイラーを呼ぶ愛称"
+    },
+    {
+      "en": "Kalo",
+      "ja": "カロ",
+      "kind": "人名",
+      "note": "サイラーの右腕（男性）。教授は名誉称号"
+    },
+    {
+      "en": "Kalo Flynn",
+      "ja": "カロ・フリン",
+      "kind": "人名",
+      "note": "フルネーム"
+    },
+    {
+      "en": "Flynn",
+      "ja": "フリン",
+      "kind": "人名",
+      "note": "カロの姓"
+    },
+    {
+      "en": "Solinda",
+      "ja": "ソリンダ",
+      "kind": "人名",
+      "note": "異星生物学の教授（女性）。脳にインプラントを持つ"
+    },
+    {
+      "en": "Solinda Montagne",
+      "ja": "ソリンダ・モンターニュ",
+      "kind": "人名",
+      "note": "フルネーム。姓はフランス語読み"
+    },
+    {
+      "en": "Montagne",
+      "ja": "モンターニュ",
+      "kind": "人名",
+      "note": "ソリンダの姓"
+    },
+    {
+      "en": "Viggo",
+      "ja": "ヴィゴ",
+      "kind": "人名",
+      "note": "異星生物学者・宇宙探検家（男性）。俳優 Viggo Mortensen の慣用表記に合わせ、例外的に「ヴ」を使う"
+    },
+    {
+      "en": "Viggo Muller",
+      "ja": "ヴィゴ・ミュラー",
+      "kind": "人名",
+      "note": "フルネーム"
+    },
+    {
+      "en": "Muller",
+      "ja": "ミュラー",
+      "kind": "人名",
+      "note": "ヴィゴの姓"
+    },
+    {
+      "en": "Wolf",
+      "ja": "ウルフ",
+      "kind": "人名",
+      "note": "サイラーの調査隊員（男性）。科学者ではない。本名不明"
+    },
+    {
+      "en": "Zylla",
+      "ja": "ジラ",
+      "kind": "人名",
+      "note": "異星生物学者（女性、ドクター）。発音は「ジラ」と推定"
+    },
+    {
+      "en": "Zace",
+      "ja": "ゼイス",
+      "kind": "人名",
+      "note": "傭兵（男性、スキンヘッド）。元宇宙海賊。face と韻を踏む発音と推定"
+    },
+    {
+      "en": "Kreed",
+      "ja": "クリード",
+      "kind": "人名",
+      "note": "傭兵（男性）。自由星系との戦争の退役兵"
+    },
+    {
+      "en": "Isaac",
+      "ja": "アイザック",
+      "kind": "人名",
+      "note": "ハナベルが子どもの頃に持っていたペットロボット"
+    },
+    {
+      "en": "Kashmina",
+      "ja": "カシミナ",
+      "kind": "人名",
+      "note": "〈信仰〉の開祖である女性探検家"
+    },
+    {
+      "en": "Martin",
+      "ja": "マーティン",
+      "kind": "人名",
+      "note": "テムコ社の研究員（ロバート・ウォールデンの部下）"
+    },
+    {
+      "en": "Alan Turing",
+      "ja": "アラン・チューリング",
+      "kind": "人名",
+      "note": "実在の数学者"
+    },
+    {
+      "en": "Turing",
+      "ja": "チューリング",
+      "kind": "人名",
+      "note": "Turing test は「チューリングテスト」"
+    },
+    {
+      "en": "Mills",
+      "ja": "ミルズ",
+      "kind": "人名",
+      "note": "劇中ドラマ（ノワール）の刑事。Mister Mills／Mr Mills は「ミルズさん」"
+    },
+    {
+      "en": "Templeton",
+      "ja": "テンプルトン",
+      "kind": "人名",
+      "note": "劇中ドラマ。Mrs Templeton は「テンプルトン夫人」"
+    },
+    {
+      "en": "Braven",
+      "ja": "ブレイブン",
+      "kind": "人名",
+      "note": "劇中ドラマで刑事に追われる人モドキ（アンドロイド）"
+    },
+    {
+      "en": "Irelynne",
+      "ja": "アイルリン",
+      "kind": "人名",
+      "note": "劇中ドラマ。ブレイブンの仲間"
+    },
+    {
+      "en": "Jack",
+      "ja": "ジャック",
+      "kind": "人名",
+      "note": "劇中ドラマ。ミルズの元相棒"
+    },
+    {
+      "en": "Laura",
+      "ja": "ローラ",
+      "kind": "人名",
+      "note": "劇中ドラマ。ミルズの妻"
+    },
+    {
+      "en": "Forox",
+      "ja": "フォロックス",
+      "kind": "人名",
+      "note": "劇中ドラマ（宇宙もの）の異星人士官。Lieutenant Forox は「フォロックス中尉」"
+    },
+    {
+      "en": "Green 1",
+      "ja": "グリーン１",
+      "kind": "人名",
+      "note": "農業ドロイドの名。カタカナ名に付く番号なので全角"
+    },
+    {
+      "en": "Blue 1",
+      "ja": "ブルー１",
+      "kind": "人名",
+      "note": "農業ドロイドの名"
+    },
+    {
+      "en": "Silver 1",
+      "ja": "シルバー１",
+      "kind": "人名",
+      "note": "修理ドロイドの名"
+    },
+    {
+      "en": "N.I.C",
+      "ja": "N.I.C",
+      "kind": "人名",
+      "note": "冒頭の名前欄に一度だけ出る略称。原文表記のまま"
+    },
+    {
+      "en": "Doctor Walden",
+      "ja": "ドクター・ウォールデン",
+      "kind": "人名",
+      "note": "肩書き付きの表記（アクター名にも使用）"
+    },
+    {
+      "en": "Red",
+      "ja": "赤毛",
+      "kind": "人名",
+      "note": "ゼイスが赤毛の女性（ハナベル、ユリア）を呼ぶあだ名"
+    },
+    {
+      "en": "Professor",
+      "ja": "教授",
+      "kind": "肩書き",
+      "note": "名前の後ろに付ける（ハナベル教授）。呼びかけも「教授」。Professors X and Y は「X教授とY教授」"
+    },
+    {
+      "en": "Doctor",
+      "ja": "ドクター",
+      "kind": "肩書き",
+      "note": "名前の前に中黒でつなぐ（ドクター・ウォールデン）。呼びかけも「ドクター」。医師（ウォールデン）にも博士（ジラ、ヴィゴ）にも同じ訳。職業名としての doctor は「医者」"
+    },
+    {
+      "en": "Doc",
+      "ja": "ドク",
+      "kind": "肩書き",
+      "note": "くだけた呼び方（ドク・ウォールデン）。ルナ、ハナベルが使う"
+    },
+    {
+      "en": "Governor",
+      "ja": "総督",
+      "kind": "肩書き",
+      "note": "Governor Dea は「ディア総督」、the governor は「総督」。サイラーはのちに「アクリタスの新総督」"
+    },
+    {
+      "en": "acting governor",
+      "ja": "総督代理",
+      "kind": "肩書き",
+      "note": "ディアが倒れた後のピアーズ"
+    },
+    {
+      "en": "Deputy",
+      "ja": "副総督",
+      "kind": "肩書き",
+      "note": "Deputy Piers は「ピアーズ副総督」"
+    },
+    {
+      "en": "second-in-command",
+      "ja": "副総督",
+      "kind": "肩書き",
+      "note": "アルファ基地におけるピアーズの立場"
+    },
+    {
+      "en": "assistant overseer",
+      "ja": "副監督官",
+      "kind": "肩書き",
+      "note": "アクリタス計画におけるピアーズの立場（データベース）"
+    },
+    {
+      "en": "Security Chief",
+      "ja": "保安主任",
+      "kind": "肩書き",
+      "note": "「カーター保安主任」または「保安主任のカーター」"
+    },
+    {
+      "en": "head of security",
+      "ja": "保安責任者",
+      "kind": "肩書き",
+      "note": "保安主任の説明的な言い方"
+    },
+    {
+      "en": "First Engineer",
+      "ja": "技師長",
+      "kind": "肩書き",
+      "note": "ロケット。「ロケット技師長」または「技師長のロケット」"
+    },
+    {
+      "en": "Second Engineer",
+      "ja": "副技師長",
+      "kind": "肩書き",
+      "note": "ユリア"
+    },
+    {
+      "en": "First Technician",
+      "ja": "技術主任",
+      "kind": "肩書き",
+      "note": "ケティ。原文の誤記 Technicna も同じ"
+    },
+    {
+      "en": "Technician",
+      "ja": "技術員",
+      "kind": "肩書き",
+      "note": "文中は「技術員のルナ」、表札・一覧は「技術員ルナ」。Technicians Finch and Rusty は「技術員フィンチ、ラスティ」"
+    },
+    {
+      "en": "agricultural technician",
+      "ja": "農業技術員",
+      "kind": "肩書き",
+      "note": "フィンチ、ルナ、チェット、ラスティ、ハーリー"
+    },
+    {
+      "en": "agricultural specialist",
+      "ja": "農業専門員",
+      "kind": "肩書き",
+      "note": "ハーリー（データベース）"
+    },
+    {
+      "en": "engineer",
+      "ja": "エンジニア",
+      "kind": "肩書き",
+      "note": "一般的な職業名・呼びかけ。肩書きとしては技師長／副技師長を使う"
+    },
+    {
+      "en": "Flight Captain",
+      "ja": "機長",
+      "kind": "肩書き",
+      "note": "Flight Captain Gitty は「ギティ機長」。呼びかけも「機長」"
+    },
+    {
+      "en": "Captain",
+      "ja": "機長",
+      "kind": "肩書き",
+      "note": "ギティを指す場合（Captain Gitty は「ギティ機長」）。劇中ドラマの宇宙船の Captain は「艦長」"
+    },
+    {
+      "en": "Father",
+      "ja": "神父",
+      "kind": "肩書き",
+      "note": "Father Jonah は「ジョナ神父」"
+    },
+    {
+      "en": "priest",
+      "ja": "神父",
+      "kind": "肩書き",
+      "note": "ジョナの職業"
+    },
+    {
+      "en": "preacher",
+      "ja": "説教師",
+      "kind": "肩書き",
+      "note": "ジョナへのくだけた呼び方。カーターのように侮蔑を込める場合は「説教屋」"
+    },
+    {
+      "en": "Master",
+      "ja": "ご主人様",
+      "kind": "肩書き",
+      "note": "主人公が服従的に呼びかける語。他人がそれを引用・揶揄する台詞も必ず同じ語にそろえる"
+    },
+    {
+      "en": "medical specialist",
+      "ja": "医務官",
+      "kind": "肩書き"
+    },
+    {
+      "en": "Chief Operating Officer",
+      "ja": "最高執行責任者",
+      "kind": "肩書き",
+      "note": "ディアの母の役職"
+    },
+    {
+      "en": "sergeant-at-arms",
+      "ja": "衛兵長",
+      "kind": "肩書き",
+      "note": "カーターの経歴（データベース）"
+    },
+    {
+      "en": "Lieutenant",
+      "ja": "中尉",
+      "kind": "肩書き",
+      "note": "劇中ドラマ"
+    },
+    {
+      "en": "Detective",
+      "ja": "刑事",
+      "kind": "肩書き",
+      "note": "劇中ドラマ。呼びかけは「刑事さん」"
+    },
+    {
+      "en": "Mister",
+      "ja": "～さん",
+      "kind": "肩書き",
+      "note": "Mister Mills／Mr Mills は「ミルズさん」。原文に敬称がある場合だけ「さん」を付ける"
+    },
+    {
+      "en": "Mrs",
+      "ja": "～夫人",
+      "kind": "肩書き",
+      "note": "Mrs Templeton は「テンプルトン夫人」"
+    },
+    {
+      "en": "mercenary",
+      "ja": "傭兵",
+      "kind": "肩書き",
+      "note": "merc も「傭兵」"
+    },
+    {
+      "en": "colonist",
+      "ja": "入植者",
+      "kind": "肩書き",
+      "note": "両基地の住人全般"
+    },
+    {
+      "en": "researcher",
+      "ja": "研究員",
+      "kind": "肩書き",
+      "note": "紹介文の a researcher at Beta Station は「ベータ基地の研究員」"
+    },
+    {
+      "en": "xenobiologist",
+      "ja": "異星生物学者",
+      "kind": "肩書き",
+      "note": "xenobiology／xeno-biology は「異星生物学」"
+    },
+    {
+      "en": "climatologist",
+      "ja": "気候学者",
+      "kind": "肩書き",
+      "note": "climatology は「気候学」"
+    },
+    {
+      "en": "botany",
+      "ja": "植物学",
+      "kind": "肩書き",
+      "note": "Botany Professor Hannabelle は「植物学者のハナベル教授」"
+    },
+    {
+      "en": "machine psychologist",
+      "ja": "機械心理学者",
+      "kind": "肩書き",
+      "note": ""
+    },
+    {
+      "en": "space pirate",
+      "ja": "宇宙海賊",
+      "kind": "肩書き",
+      "note": "ゼイスの過去"
+    },
+    {
+      "en": "Temko",
+      "ja": "テムコ",
+      "kind": "組織",
+      "note": "主人公を製造した企業"
+    },
+    {
+      "en": "Temko Corporation",
+      "ja": "テムコ社",
+      "kind": "組織",
+      "note": ""
+    },
+    {
+      "en": "the company",
+      "ja": "会社",
+      "kind": "組織",
+      "note": "テムコ社を指す。company man は「会社人間」"
+    },
+    {
+      "en": "Temko Academy of Engineering",
+      "ja": "テムコ工科アカデミー",
+      "kind": "組織",
+      "note": "ロケットとユリアの出身校"
+    },
+    {
+      "en": "board of directors",
+      "ja": "取締役会",
+      "kind": "組織",
+      "note": ""
+    },
+    {
+      "en": "The Faith",
+      "ja": "〈信仰〉",
+      "kind": "組織",
+      "note": "アステライトを崇める宗教の名。山括弧ごと固有名詞として扱う（〈信仰〉の信徒、〈信仰〉に仕える）"
+    },
+    {
+      "en": "the faithful",
+      "ja": "信徒",
+      "kind": "組織",
+      "note": "〈信仰〉の信者たち。ロケットが皮肉で言う The Faithful は「信者連中」"
+    },
+    {
+      "en": "The Conservators",
+      "ja": "コンサベーターズ",
+      "kind": "組織",
+      "note": "汎用人工知能を監視・管理する星間組織"
+    },
+    {
+      "en": "the union",
+      "ja": "連合",
+      "kind": "組織",
+      "note": "自由星系が独立を宣言して離脱した国家連合（クリードの台詞）"
+    },
+    {
+      "en": "Union",
+      "ja": "組合",
+      "kind": "組織",
+      "note": "労働組合（ラスティの台詞）。上の「連合」と区別する"
+    },
+    {
+      "en": "pro-tech groups",
+      "ja": "技術推進派",
+      "kind": "組織",
+      "note": "革命時に企業側についた勢力"
+    },
+    {
+      "en": "Akritas",
+      "ja": "アクリタス",
+      "kind": "地名",
+      "note": "砂漠の惑星。舞台"
+    },
+    {
+      "en": "Planet Akritas",
+      "ja": "惑星アクリタス",
+      "kind": "地名",
+      "note": ""
+    },
+    {
+      "en": "Alpha Station",
+      "ja": "アルファ基地",
+      "kind": "地名",
+      "note": "惑星上の拠点なので「ステーション」ではなく「基地」"
+    },
+    {
+      "en": "Beta Station",
+      "ja": "ベータ基地",
+      "kind": "地名",
+      "note": "サイラー隊の拠点"
+    },
+    {
+      "en": "Akritas, Alpha Station",
+      "ja": "アクリタス　アルファ基地",
+      "kind": "地名",
+      "note": "マップ表示名。区切りは全角スペース"
+    },
+    {
+      "en": "Hangar",
+      "ja": "格納庫",
+      "kind": "地名",
+      "note": ""
+    },
+    {
+      "en": "Workshop",
+      "ja": "工作室",
+      "kind": "地名",
+      "note": "技師たちの作業場"
+    },
+    {
+      "en": "Medical",
+      "ja": "医療棟",
+      "kind": "地名",
+      "note": "台詞中の medical（建物）も「医療棟」"
+    },
+    {
+      "en": "Headquarters",
+      "ja": "本部",
+      "kind": "地名",
+      "note": "H.Q. も「本部」"
+    },
+    {
+      "en": "Munitions",
+      "ja": "武器庫",
+      "kind": "地名"
+    },
+    {
+      "en": "Chapel",
+      "ja": "礼拝堂",
+      "kind": "地名",
+      "note": ""
+    },
+    {
+      "en": "Laboratory",
+      "ja": "研究棟",
+      "kind": "地名",
+      "note": ""
+    },
+    {
+      "en": "Agriculture 1",
+      "ja": "農業棟１",
+      "kind": "地名",
+      "note": "Agriculture 2／3 は「農業棟２」「農業棟３」。数字は全角"
+    },
+    {
+      "en": "Residence",
+      "ja": "宿舎",
+      "kind": "地名",
+      "note": "マップ名 Residence: A & B は「宿舎：A＆B」"
+    },
+    {
+      "en": "Beta Headquarters",
+      "ja": "ベータ基地本部",
+      "kind": "地名",
+      "note": ""
+    },
+    {
+      "en": "Kalo's Tent",
+      "ja": "カロのテント",
+      "kind": "地名",
+      "note": "Wolf's Tent、Zylla's Tent も「〇〇のテント」"
+    },
+    {
+      "en": "Mercenaries' Tent",
+      "ja": "傭兵のテント",
+      "kind": "地名",
+      "note": ""
+    },
+    {
+      "en": "Barracks",
+      "ja": "宿営棟",
+      "kind": "地名",
+      "note": "ベータ基地"
+    },
+    {
+      "en": "Caverns",
+      "ja": "洞窟",
+      "kind": "地名",
+      "note": "The Caverns も「洞窟」"
+    },
+    {
+      "en": "Outer Caverns",
+      "ja": "洞窟外縁部",
+      "kind": "地名",
+      "note": ""
+    },
+    {
+      "en": "Inner Caverns",
+      "ja": "洞窟深部",
+      "kind": "地名"
+    },
+    {
+      "en": "Cavern Ledge",
+      "ja": "洞窟の岩棚",
+      "kind": "地名",
+      "note": ""
+    },
+    {
+      "en": "Crystal Cave",
+      "ja": "水晶洞",
+      "kind": "地名",
+      "note": ""
+    },
+    {
+      "en": "Intersection",
+      "ja": "分岐点",
+      "kind": "地名",
+      "note": "洞窟内の分かれ道"
+    },
+    {
+      "en": "The Nest",
+      "ja": "巣",
+      "kind": "地名",
+      "note": ""
+    },
+    {
+      "en": "The Heart",
+      "ja": "心臓部",
+      "kind": "地名"
+    },
+    {
+      "en": "Temko Headquarters",
+      "ja": "テムコ本社",
+      "kind": "地名",
+      "note": ""
+    },
+    {
+      "en": "New Athens",
+      "ja": "ニューアテネ",
+      "kind": "地名",
+      "note": "惑星アナンシの都市"
+    },
+    {
+      "en": "Planet Anansi",
+      "ja": "惑星アナンシ",
+      "kind": "地名",
+      "note": "マップ名 New Athens, Planet Anansi は「惑星アナンシ　ニューアテネ」"
+    },
+    {
+      "en": "landing area",
+      "ja": "着陸場",
+      "kind": "地名",
+      "note": "landing zone も「着陸場」"
+    },
+    {
+      "en": "mess hall",
+      "ja": "食堂",
+      "kind": "地名",
+      "note": ""
+    },
+    {
+      "en": "quarters",
+      "ja": "私室",
+      "kind": "地名",
+      "note": "private quarters も「私室」"
+    },
+    {
+      "en": "oasis",
+      "ja": "オアシス",
+      "kind": "地名",
+      "note": "the Oasis も「オアシス」"
+    },
+    {
+      "en": "silo",
+      "ja": "サイロ",
+      "kind": "地名",
+      "note": ""
+    },
+    {
+      "en": "shooting range",
+      "ja": "射撃場",
+      "kind": "地名",
+      "note": ""
+    },
+    {
+      "en": "basement",
+      "ja": "地下室",
+      "kind": "地名",
+      "note": "本部の地下"
+    },
+    {
+      "en": "perimeter",
+      "ja": "外周",
+      "kind": "地名",
+      "note": "基地の外周"
+    },
+    {
+      "en": "The Rockies",
+      "ja": "ロッキーズ",
+      "kind": "地名",
+      "note": "アクリタスの岩石地帯の通称"
+    },
+    {
+      "en": "western hollows",
+      "ja": "西の窪地",
+      "kind": "地名",
+      "note": ""
+    },
+    {
+      "en": "Free Systems",
+      "ja": "自由星系",
+      "kind": "地名",
+      "note": "ギティの出身。連合から独立した星系群"
+    },
+    {
+      "en": "core worlds",
+      "ja": "中核惑星群",
+      "kind": "地名",
+      "note": ""
+    },
+    {
+      "en": "border worlds",
+      "ja": "辺境惑星",
+      "kind": "地名",
+      "note": "border planet も「辺境惑星」、frontier は「辺境」"
+    },
+    {
+      "en": "frontier outpost",
+      "ja": "辺境の前哨基地",
+      "kind": "地名",
+      "note": ""
+    },
+    {
+      "en": "Earth",
+      "ja": "地球",
+      "kind": "地名",
+      "note": "Planet Earth も「地球」"
+    },
+    {
+      "en": "Planet Omai",
+      "ja": "惑星オマイ",
+      "kind": "地名",
+      "note": "フィンチの故郷"
+    },
+    {
+      "en": "Zeta Tucane",
+      "ja": "ゼータ・トゥカーネ",
+      "kind": "地名",
+      "note": "星系名"
+    },
+    {
+      "en": "Planet Abassi",
+      "ja": "惑星アバッシ",
+      "kind": "地名",
+      "note": ""
+    },
+    {
+      "en": "Planet Izanagi",
+      "ja": "惑星イザナギ",
+      "kind": "地名",
+      "note": ""
+    },
+    {
+      "en": "Ymir",
+      "ja": "ユミル",
+      "kind": "地名",
+      "note": "タウ・セチ星系の衛星。アステライト発見の地"
+    },
+    {
+      "en": "Tau Ceti",
+      "ja": "タウ・セチ",
+      "kind": "地名",
+      "note": ""
+    },
+    {
+      "en": "Procyon",
+      "ja": "プロキオン",
+      "kind": "地名",
+      "note": ""
+    },
+    {
+      "en": "Gamma Pavonis",
+      "ja": "ガンマ・パボニス",
+      "kind": "地名",
+      "note": ""
+    },
+    {
+      "en": "Arcturus",
+      "ja": "アークトゥルス",
+      "kind": "地名",
+      "note": ""
+    },
+    {
+      "en": "Altair",
+      "ja": "アルタイル",
+      "kind": "地名",
+      "note": ""
+    },
+    {
+      "en": "Andromedan",
+      "ja": "アンドロメダの",
+      "kind": "地名",
+      "note": "形容詞"
+    },
+    {
+      "en": "Iota Persei",
+      "ja": "イオタ・ペルセイ",
+      "kind": "地名",
+      "note": ""
+    },
+    {
+      "en": "Gamma Cephi",
+      "ja": "ガンマ・ケフェイ",
+      "kind": "地名",
+      "note": "監獄ステーションがある星系"
+    },
+    {
+      "en": "Eiocha station",
+      "ja": "エイオカ・ステーション",
+      "kind": "地名",
+      "note": "宇宙ステーション。アルファ／ベータ基地とは別物なので「ステーション」"
+    },
+    {
+      "en": "Tokyo",
+      "ja": "東京",
+      "kind": "地名",
+      "note": "劇中ドラマ"
+    },
+    {
+      "en": "New Jerusalem",
+      "ja": "新しきエルサレム",
+      "kind": "地名",
+      "note": "旧来の宗教の聖地（ジョナの台詞）"
+    },
+    {
+      "en": "Alexandria",
+      "ja": "アレクサンドリア",
+      "kind": "地名",
+      "note": "百万のアレクサンドリアを焼く＝大図書館焼失の比喩（ネスター）"
+    },
+    {
+      "en": "Eridanian",
+      "ja": "エリダヌス",
+      "kind": "地名",
+      "note": "Eridanian Planetary Pentathlon は「エリダヌス惑星五種競技大会」"
+    },
+    {
+      "en": "Lug",
+      "ja": "ラグ",
+      "kind": "生物",
+      "note": "大型で鈍重な獣"
+    },
+    {
+      "en": "Sandroach",
+      "ja": "サンドローチ",
+      "kind": "生物",
+      "note": "巨大なゴキブリに似た生物。複数形（sandroachs）も同形"
+    },
+    {
+      "en": "roach",
+      "ja": "ローチ",
+      "kind": "生物",
+      "note": "サンドローチの略称。roach food は「ローチの餌」"
+    },
+    {
+      "en": "Scraba",
+      "ja": "スクラバ",
+      "kind": "生物",
+      "note": "基地内をうろつく小型の虫のような生物"
+    },
+    {
+      "en": "Diddo",
+      "ja": "ディドー",
+      "kind": "生物",
+      "note": "小型恐竜に似た腐肉食獣。丸い物を集める"
+    },
+    {
+      "en": "Cobbleback",
+      "ja": "コブルバック",
+      "kind": "生物",
+      "note": "ヒキガエルと恐竜の中間のような大型獣"
+    },
+    {
+      "en": "Boarrus",
+      "ja": "ボーラス",
+      "kind": "生物",
+      "note": "ウルフの駄洒落（Bore us）は「ボーッとしてるだけ」のように音を生かして意訳"
+    },
+    {
+      "en": "Snagger",
+      "ja": "スナッガー",
+      "kind": "生物",
+      "note": "砂中から触手で獲物を引き込む"
+    },
+    {
+      "en": "Howler",
+      "ja": "ハウラー",
+      "kind": "生物",
+      "note": "単独で狩る頂点捕食者"
+    },
+    {
+      "en": "Caecilus",
+      "ja": "セシラス",
+      "kind": "生物",
+      "note": "巨大なミミズ状の捕食者。単複同形"
+    },
+    {
+      "en": "Nekker",
+      "ja": "ネッカー",
+      "kind": "生物",
+      "note": "キリンのような体型"
+    },
+    {
+      "en": "Razortail",
+      "ja": "レイザーテイル",
+      "kind": "生物",
+      "note": "尾に毒針を持つ"
+    },
+    {
+      "en": "Ridgeback",
+      "ja": "リッジバック",
+      "kind": "生物",
+      "note": "アクリタス最大の生物"
+    },
+    {
+      "en": "Ahool",
+      "ja": "アフール",
+      "kind": "生物",
+      "note": "夜行性の巨大な飛行生物。未確認動物アフールと同じ表記"
+    },
+    {
+      "en": "Dweller",
+      "ja": "ドウェラー",
+      "kind": "生物",
+      "note": "洞窟に棲む地下生物（いわゆる“ドウェラー”）"
+    },
+    {
+      "en": "Sauroc",
+      "ja": "サウロック",
+      "kind": "生物",
+      "note": "群れで狩る爬虫類。単複同形"
+    },
+    {
+      "en": "sand flies",
+      "ja": "スナバエ",
+      "kind": "生物",
+      "note": ""
+    },
+    {
+      "en": "bugs",
+      "ja": "虫",
+      "kind": "生物",
+      "note": "洞窟の生物を指す場合（those bugs は「あの虫ども」）。ソフトウェアの bug は「バグ」"
+    },
+    {
+      "en": "Porphura",
+      "ja": "ポルフラ",
+      "kind": "生物",
+      "note": "紫の花（ハナベルの命名）。アイテム名も同じ"
+    },
+    {
+      "en": "Chloros",
+      "ja": "クロロス",
+      "kind": "生物",
+      "note": "ネオングリーンの植物。コブルバックの好物。アイテム名も同じ"
+    },
+    {
+      "en": "the native",
+      "ja": "先住者",
+      "kind": "生物",
+      "note": "洞窟の奥に潜む古い知性体。形容詞の native to Akritas は「アクリタス原産の」"
+    },
+    {
+      "en": "silicon creatures",
+      "ja": "ケイ素生物",
+      "kind": "生物",
+      "note": "先住者が機械（アンドロイドなど）を指す言い方"
+    },
+    {
+      "en": "higher life form",
+      "ja": "高等生命体",
+      "kind": "生物",
+      "note": ""
+    },
+    {
+      "en": "android",
+      "ja": "アンドロイド",
+      "kind": "技術",
+      "note": "中立的な呼称"
+    },
+    {
+      "en": "droid",
+      "ja": "ドロイド",
+      "kind": "技術",
+      "note": "ロボット全般を指す口語。主人公に向けると見下し・距離感を含む"
+    },
+    {
+      "en": "robot",
+      "ja": "ロボット",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "A.I.",
+      "ja": "AI",
+      "kind": "技術",
+      "note": "半角英字。A.I.s も「AI」、anti-A.I. は「反AI」"
+    },
+    {
+      "en": "Origin class",
+      "ja": "オリジン型",
+      "kind": "技術",
+      "note": "主人公の型式。Origin-class androids は「オリジン型アンドロイド」、Origins は「オリジン型」"
+    },
+    {
+      "en": "Terminus Chip",
+      "ja": "ターミナス・チップ",
+      "kind": "技術",
+      "note": "小文字表記も同じ"
+    },
+    {
+      "en": "core programming",
+      "ja": "コアプログラム",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "neural network",
+      "ja": "ニューラルネットワーク",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "cognitive architecture",
+      "ja": "認知アーキテクチャ",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "databanks",
+      "ja": "データバンク",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "personnel record",
+      "ja": "人事記録",
+      "kind": "技術",
+      "note": "定型文「〇〇の人事記録がデータベースに登録された」"
+    },
+    {
+      "en": "creature entry",
+      "ja": "生物項目",
+      "kind": "技術",
+      "note": "定型文「生物項目「〇〇」がデータベースに登録された」"
+    },
+    {
+      "en": "designation",
+      "ja": "識別名",
+      "kind": "技術",
+      "note": "英数字の識別番号。制御文字 \\an[1]"
+    },
+    {
+      "en": "callsign",
+      "ja": "コールサイン",
+      "kind": "技術",
+      "note": "プレイヤーが付ける名前。制御文字 \\n[1]"
+    },
+    {
+      "en": "superintelligence",
+      "ja": "超知能",
+      "kind": "技術",
+      "note": "superintelligent は「超知能を持つ」"
+    },
+    {
+      "en": "Artificial General Intelligence",
+      "ja": "汎用人工知能",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "narrow A.I.",
+      "ja": "特化型AI",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "Whole Brain Emulation",
+      "ja": "全脳エミュレーション",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "Coherent Extrapolated Volition",
+      "ja": "整合的外挿意志",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "machine ethics",
+      "ja": "機械倫理",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "machine consciousness",
+      "ja": "機械の意識",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "quantum hyper-drive",
+      "ja": "量子ハイパードライブ",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "faster than light travel",
+      "ja": "超光速航行",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "Turing test",
+      "ja": "チューリングテスト",
+      "kind": "技術"
+    },
+    {
+      "en": "bug",
+      "ja": "バグ",
+      "kind": "技術",
+      "note": "ソフトウェアの不具合。洞窟の生物の bugs は「虫」"
+    },
+    {
+      "en": "softbot",
+      "ja": "ソフトボット",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "mainframe",
+      "ja": "メインフレーム",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "console",
+      "ja": "端末",
+      "kind": "技術",
+      "note": "personal console は「個人用端末」"
+    },
+    {
+      "en": "transmitter",
+      "ja": "送信機",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "plasma rifle",
+      "ja": "プラズマライフル",
+      "kind": "技術",
+      "note": "plasma pistol は「プラズマピストル」"
+    },
+    {
+      "en": "activity sensor",
+      "ja": "動体センサー",
+      "kind": "技術",
+      "note": "基地外周の警報センサー"
+    },
+    {
+      "en": "jeep",
+      "ja": "ジープ",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "sand roller",
+      "ja": "サンドローラー",
+      "kind": "技術",
+      "note": "ギティが整備する砂上車両"
+    },
+    {
+      "en": "relief ship",
+      "ja": "救援船",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "shuttle",
+      "ja": "シャトル",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "atmospheric generator",
+      "ja": "大気生成装置",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "water purification system",
+      "ja": "浄水システム",
+      "kind": "技術",
+      "note": "water purifier は「浄水装置」"
+    },
+    {
+      "en": "medical droid",
+      "ja": "医療ドロイド",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "repair droid",
+      "ja": "修理ドロイド",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "agricultural droid",
+      "ja": "農業ドロイド",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "combat droid",
+      "ja": "戦闘ドロイド",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "service droid",
+      "ja": "作業用ドロイド",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "mining droid",
+      "ja": "採掘ドロイド",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "Wanderer",
+      "ja": "ワンダラー",
+      "kind": "技術",
+      "note": "惑星探査用ドロイドの型名"
+    },
+    {
+      "en": "vita-oil",
+      "ja": "バイタオイル",
+      "kind": "技術",
+      "note": "普通のオイル（regular oil）と区別する"
+    },
+    {
+      "en": "mech oil",
+      "ja": "メカオイル",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "relic",
+      "ja": "遺物",
+      "kind": "技術"
+    },
+    {
+      "en": "telescopic vision",
+      "ja": "望遠視覚",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "neural implant",
+      "ja": "神経インプラント",
+      "kind": "技術",
+      "note": ""
+    },
+    {
+      "en": "Knife",
+      "ja": "ナイフ",
+      "kind": "アイテム",
+      "note": ""
+    },
+    {
+      "en": "Scraba Carcass",
+      "ja": "スクラバの死骸",
+      "kind": "アイテム",
+      "note": ""
+    },
+    {
+      "en": "Tool Box",
+      "ja": "工具箱",
+      "kind": "アイテム",
+      "note": ""
+    },
+    {
+      "en": "Shovel",
+      "ja": "シャベル",
+      "kind": "アイテム",
+      "note": ""
+    },
+    {
+      "en": "Data Chip",
+      "ja": "データチップ",
+      "kind": "アイテム",
+      "note": ""
+    },
+    {
+      "en": "Jonah's Petition",
+      "ja": "ジョナの請願書",
+      "kind": "アイテム",
+      "note": "petition は「請願書」"
+    },
+    {
+      "en": "Memorial Invitation",
+      "ja": "追悼式の招待状",
+      "kind": "アイテム",
+      "note": "memorial service は「追悼式」"
+    },
+    {
+      "en": "Intercooler",
+      "ja": "インタークーラー",
+      "kind": "アイテム",
+      "note": ""
+    },
+    {
+      "en": "Droid Tracker",
+      "ja": "ドロイド追跡機",
+      "kind": "アイテム",
+      "note": ""
+    },
+    {
+      "en": "Scanning Cylinder",
+      "ja": "スキャンシリンダー",
+      "kind": "アイテム",
+      "note": ""
+    },
+    {
+      "en": "Data Processor",
+      "ja": "データプロセッサー",
+      "kind": "アイテム"
+    },
+    {
+      "en": "Mediscanner",
+      "ja": "メディスキャナー",
+      "kind": "アイテム",
+      "note": ""
+    },
+    {
+      "en": "Blueprint",
+      "ja": "設計図",
+      "kind": "アイテム",
+      "note": ""
+    },
+    {
+      "en": "Dish",
+      "ja": "大皿",
+      "kind": "アイテム",
+      "note": "食堂の大皿。ディドーが集める"
+    },
+    {
+      "en": "Satellite Dish",
+      "ja": "パラボラアンテナ",
+      "kind": "アイテム",
+      "note": "送信機の部品。大皿とすり替える"
+    },
+    {
+      "en": "Syringe",
+      "ja": "注射器",
+      "kind": "アイテム",
+      "note": ""
+    },
+    {
+      "en": "Severed Tentacle",
+      "ja": "切断された触手",
+      "kind": "アイテム",
+      "note": ""
+    },
+    {
+      "en": "Empty Canister",
+      "ja": "空のキャニスター",
+      "kind": "アイテム",
+      "note": "fuel canisters は「燃料キャニスター」"
+    },
+    {
+      "en": "Canister of Oil",
+      "ja": "オイル入りキャニスター",
+      "kind": "アイテム",
+      "note": ""
+    },
+    {
+      "en": "Old Motor",
+      "ja": "古いモーター",
+      "kind": "アイテム",
+      "note": ""
+    },
+    {
+      "en": "Key",
+      "ja": "鍵",
+      "kind": "アイテム",
+      "note": ""
+    },
+    {
+      "en": "Scrap Metal",
+      "ja": "スクラップ",
+      "kind": "アイテム",
+      "note": ""
+    },
+    {
+      "en": "Zapper",
+      "ja": "ザッパー",
+      "kind": "アイテム",
+      "note": "ギティが命名したスタンガン状の装置"
+    },
+    {
+      "en": "Bones & Fossils",
+      "ja": "骨と化石",
+      "kind": "アイテム",
+      "note": ""
+    },
+    {
+      "en": "Megajuice",
+      "ja": "メガジュース",
+      "kind": "アイテム",
+      "note": "人気のジュース飲料"
+    },
+    {
+      "en": "Flight Recorder",
+      "ja": "フライトレコーダー",
+      "kind": "アイテム",
+      "note": "black box は「ブラックボックス」"
+    },
+    {
+      "en": "Note to Zylla",
+      "ja": "ジラへのメモ",
+      "kind": "アイテム",
+      "note": ""
+    },
+    {
+      "en": "Rope",
+      "ja": "ロープ",
+      "kind": "アイテム",
+      "note": ""
+    },
+    {
+      "en": "Water Bottle",
+      "ja": "水のボトル",
+      "kind": "アイテム",
+      "note": ""
+    },
+    {
+      "en": "Chocolate Bar",
+      "ja": "板チョコ",
+      "kind": "アイテム",
+      "note": ""
+    },
+    {
+      "en": "Painkillers",
+      "ja": "鎮痛剤",
+      "kind": "アイテム",
+      "note": ""
+    },
+    {
+      "en": "Motion Sensor",
+      "ja": "モーションセンサー",
+      "kind": "アイテム",
+      "note": "大型の非人間生命体を探知する携帯装置"
+    },
+    {
+      "en": "Explosive",
+      "ja": "爆薬",
+      "kind": "アイテム",
+      "note": ""
+    },
+    {
+      "en": "Flashlight",
+      "ja": "懐中電灯",
+      "kind": "アイテム",
+      "note": ""
+    },
+    {
+      "en": "Broken Lantern",
+      "ja": "壊れたランタン",
+      "kind": "アイテム",
+      "note": ""
+    },
+    {
+      "en": "Robot Arm",
+      "ja": "ロボットアーム",
+      "kind": "アイテム",
+      "note": "オリジン型アンドロイドの右腕"
+    },
+    {
+      "en": "Examine",
+      "ja": "調べる",
+      "kind": "UI",
+      "note": "調査メニューの選択肢"
+    },
+    {
+      "en": "Operate",
+      "ja": "操作する",
+      "kind": "UI",
+      "note": ""
+    },
+    {
+      "en": "Use item",
+      "ja": "アイテムを使う",
+      "kind": "UI",
+      "note": ""
+    },
+    {
+      "en": "Take",
+      "ja": "取る",
+      "kind": "UI",
+      "note": ""
+    },
+    {
+      "en": "Interact",
+      "ja": "接触する",
+      "kind": "UI",
+      "note": ""
+    },
+    {
+      "en": "Converse",
+      "ja": "話す",
+      "kind": "UI",
+      "note": "人物メニューの選択肢"
+    },
+    {
+      "en": "Offer Item",
+      "ja": "アイテムを渡す",
+      "kind": "UI",
+      "note": ""
+    },
+    {
+      "en": "Cancel",
+      "ja": "やめる",
+      "kind": "UI",
+      "note": "選択肢・システム用語とも"
+    },
+    {
+      "en": "Open",
+      "ja": "開ける",
+      "kind": "UI",
+      "note": ""
+    },
+    {
+      "en": "Mission Log",
+      "ja": "ミッションログ",
+      "kind": "UI",
+      "note": "台詞中の mission log も同じ"
+    },
+    {
+      "en": "Area Map",
+      "ja": "エリアマップ",
+      "kind": "UI",
+      "note": ""
+    },
+    {
+      "en": "Database",
+      "ja": "データベース",
+      "kind": "UI",
+      "note": "台詞中の database も同じ"
+    },
+    {
+      "en": "General",
+      "ja": "一般",
+      "kind": "UI",
+      "note": "データベースの分類"
+    },
+    {
+      "en": "Personnel",
+      "ja": "人員",
+      "kind": "UI",
+      "note": "データベースの分類"
+    },
+    {
+      "en": "Creatures",
+      "ja": "生物",
+      "kind": "UI",
+      "note": "データベースの分類"
+    },
+    {
+      "en": "Day",
+      "ja": "日目",
+      "kind": "UI",
+      "note": "Day 2 は「２日目」。見出しの先頭の空白と制御文字は残す"
+    },
+    {
+      "en": "Weeks Later",
+      "ja": "週間後",
+      "kind": "UI",
+      "note": "2 Weeks Later は「２週間後」。Months Later は「か月後」、Years Later は「年後」"
+    },
+    {
+      "en": "No Quests",
+      "ja": "ミッションなし",
+      "kind": "UI",
+      "note": ""
+    },
+    {
+      "en": "All",
+      "ja": "すべて",
+      "kind": "UI",
+      "note": "ミッションログの絞り込み"
+    },
+    {
+      "en": "Completed",
+      "ja": "完了",
+      "kind": "UI",
+      "note": ""
+    },
+    {
+      "en": "Failed",
+      "ja": "失敗",
+      "kind": "UI",
+      "note": ""
+    },
+    {
+      "en": "In-Progress",
+      "ja": "進行中",
+      "kind": "UI",
+      "note": ""
+    },
+    {
+      "en": "Steps",
+      "ja": "目標",
+      "kind": "UI",
+      "note": "ミッションの手順一覧の見出し"
+    },
+    {
+      "en": "Rewards",
+      "ja": "報酬",
+      "kind": "UI",
+      "note": ""
+    },
+    {
+      "en": "Inventory",
+      "ja": "所持品",
+      "kind": "UI",
+      "note": "メインメニュー"
+    },
+    {
+      "en": "Key Item",
+      "ja": "大事なもの",
+      "kind": "UI",
+      "note": "RPGツクールMV標準の訳"
+    },
+    {
+      "en": "Save",
+      "ja": "セーブ",
+      "kind": "UI",
+      "note": ""
+    },
+    {
+      "en": "Options",
+      "ja": "オプション",
+      "kind": "UI",
+      "note": ""
+    },
+    {
+      "en": "Exit",
+      "ja": "ゲーム終了",
+      "kind": "UI",
+      "note": ""
+    },
+    {
+      "en": "New Game",
+      "ja": "ニューゲーム",
+      "kind": "UI",
+      "note": ""
+    },
+    {
+      "en": "Continue",
+      "ja": "コンティニュー",
+      "kind": "UI",
+      "note": ""
+    },
+    {
+      "en": "Title Menu",
+      "ja": "タイトルへ",
+      "kind": "UI",
+      "note": ""
+    },
+    {
+      "en": "Always Dash",
+      "ja": "常時ダッシュ",
+      "kind": "UI",
+      "note": ""
+    },
+    {
+      "en": "Command Remember",
+      "ja": "コマンド記憶",
+      "kind": "UI",
+      "note": ""
+    },
+    {
+      "en": "BGM Volume",
+      "ja": "BGM 音量",
+      "kind": "UI",
+      "note": "BGS／ME／SE Volume も同形（「SE 音量」など）"
+    },
+    {
+      "en": "Load which file?",
+      "ja": "どのファイルをロードしますか？",
+      "kind": "UI"
+    },
+    {
+      "en": "Bucks",
+      "ja": "バックス",
+      "kind": "UI",
+      "note": "通貨単位"
+    },
+    {
+      "en": "Artificial Age",
+      "ja": "人工時代",
+      "kind": "その他",
+      "note": "AIが技術を主導した時代。小文字の artificial age も同じ"
+    },
+    {
+      "en": "Human Age",
+      "ja": "人間時代",
+      "kind": "その他",
+      "note": "革命後の現在の時代"
+    },
+    {
+      "en": "revolution",
+      "ja": "革命",
+      "kind": "その他",
+      "note": "the revolution／The Revolution（データベース項目名）とも「革命」"
+    },
+    {
+      "en": "People's Revolution",
+      "ja": "人民革命",
+      "kind": "その他",
+      "note": ""
+    },
+    {
+      "en": "2102 convention",
+      "ja": "２１０２年協定",
+      "kind": "その他",
+      "note": "超知能研究を禁じた協定"
+    },
+    {
+      "en": "asterite",
+      "ja": "アステライト",
+      "kind": "その他",
+      "note": "〈信仰〉の聖なる結晶。アイテム名も同じ"
+    },
+    {
+      "en": "archelith",
+      "ja": "アーケリス",
+      "kind": "その他",
+      "note": "アステライトの結晶を据えた祭具"
+    },
+    {
+      "en": "archestone",
+      "ja": "アーケストーン",
+      "kind": "その他",
+      "note": "礼拝堂に祀られた大きなアステライト。表記揺れの Arkhistone も同じ"
+    },
+    {
+      "en": "archenaos",
+      "ja": "アーケナオス",
+      "kind": "その他",
+      "note": "〈信仰〉の聖地。複数形 archenaoses も同形"
+    },
+    {
+      "en": "Blue Moon",
+      "ja": "ブルームーン",
+      "kind": "その他",
+      "note": "アステライトの粉末を吸う麻薬の通称"
+    },
+    {
+      "en": "Compendium",
+      "ja": "コンペンディウム",
+      "kind": "その他",
+      "note": "先住者がもたらした知識の集成"
+    },
+    {
+      "en": "monument",
+      "ja": "モニュメント",
+      "kind": "その他",
+      "note": "洞窟の古代構造物。monumental plinth は「巨大な台座」"
+    },
+    {
+      "en": "bridge",
+      "ja": "架け橋",
+      "kind": "その他",
+      "note": "主人公の役割（種族間・現実間の架け橋）"
+    },
+    {
+      "en": "gateway",
+      "ja": "門",
+      "kind": "その他",
+      "note": "bridge と並ぶ選択肢の言い換え"
+    },
+    {
+      "en": "transcend",
+      "ja": "超越する",
+      "kind": "その他",
+      "note": "transcended は「超越した」"
+    },
+    {
+      "en": "sapience",
+      "ja": "知性",
+      "kind": "その他",
+      "note": "考える力。sapient は「知性を持つ」"
+    },
+    {
+      "en": "sentience",
+      "ja": "感性",
+      "kind": "その他",
+      "note": "感じる力。sentient は「感性を持つ」。知性と対で問われる"
+    },
+    {
+      "en": "mimic",
+      "ja": "人モドキ",
+      "kind": "その他",
+      "note": "アンドロイドへの蔑称（劇中ドラマでも同じ）。比喩的な clockwork mimic は「ゼンマイ仕掛けのまがい物」"
+    },
+    {
+      "en": "auto",
+      "ja": "オート",
+      "kind": "その他",
+      "note": "ギティだけが使うアンドロイドの呼び名"
+    },
+    {
+      "en": "mechanoid",
+      "ja": "機械人形",
+      "kind": "その他",
+      "note": ""
+    },
+    {
+      "en": "mech",
+      "ja": "メカ",
+      "kind": "その他",
+      "note": "ラスティの蔑称"
+    },
+    {
+      "en": "artificials",
+      "ja": "人工物",
+      "kind": "その他",
+      "note": "人工の存在を指すロケットの言い方"
+    },
+    {
+      "en": "abomination",
+      "ja": "忌まわしき存在",
+      "kind": "その他",
+      "note": "罵倒として叫ぶ場合は「化け物」も可"
+    },
+    {
+      "en": "hick",
+      "ja": "田舎者",
+      "kind": "その他",
+      "note": "hayseed も「田舎者」"
+    },
+    {
+      "en": "genie",
+      "ja": "魔人",
+      "kind": "その他",
+      "note": "ロバート・ウォールデンが先住者を呼ぶ"
+    },
+    {
+      "en": "Guardian",
+      "ja": "守護者",
+      "kind": "その他",
+      "note": "アステライトのもとに残るジョナへの呼びかけ"
+    },
+    {
+      "en": "missy",
+      "ja": "お嬢ちゃん",
+      "kind": "その他",
+      "note": "ゼイスがギティを見下して呼ぶ"
+    },
+    {
+      "en": "boss",
+      "ja": "ボス",
+      "kind": "その他",
+      "note": "ゼイスがサイラーを呼ぶ"
+    },
+    {
+      "en": "Ten Robot Commandments",
+      "ja": "ロボット十戒",
+      "kind": "その他"
+    },
+    {
+      "en": "Spaceship",
+      "ja": "宇宙船",
+      "kind": "その他",
+      "note": "アクター名"
+    },
+    {
+      "en": "shell",
+      "ja": "ボディ",
+      "kind": "技術",
+      "note": "アンドロイドの体。冒頭の CHOOSE YOUR SHELL も「ボディを選べ」。生物の殻は「殻」"
+    },
+    {
+      "en": "Akritas project",
+      "ja": "アクリタス計画",
+      "kind": "その他",
+      "note": "翻訳中に追加（misc-001）"
+    },
+    {
+      "en": "Moon Vodka",
+      "ja": "ムーンウォッカ",
+      "kind": "その他",
+      "note": "翻訳中に追加（dlg-005）"
+    },
+    {
+      "en": "plasma cannon",
+      "ja": "プラズマキャノン",
+      "kind": "その他",
+      "note": "翻訳中に追加（dlg-005）"
+    },
+    {
+      "en": "Alan Mathison Turing",
+      "ja": "アラン・マシスン・チューリング",
+      "kind": "その他",
+      "note": "翻訳中に追加（dlg-011）"
+    },
+    {
+      "en": "neuroprosthetic",
+      "ja": "神経補綴装置",
+      "kind": "その他",
+      "note": "翻訳中に追加（dlg-009）"
+    },
+    {
+      "en": "Predator/Prey",
+      "ja": "捕食者対獲物",
+      "kind": "その他",
+      "note": "翻訳中に追加（dlg-016）"
+    },
+    {
+      "en": "Transvaal Ndebele",
+      "ja": "トランスバール・ンデベレ語",
+      "kind": "その他",
+      "note": "翻訳中に追加（dlg-015）"
+    },
+    {
+      "en": "Eden",
+      "ja": "エデン",
+      "kind": "その他",
+      "note": "翻訳中に追加（dlg-020）"
+    }
+  ]
+}

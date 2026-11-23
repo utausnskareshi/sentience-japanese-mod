@@ -1,0 +1,6 @@
+# パッチツール（C#）のビルド成果物・IDE の作業ファイル
+bin/
+obj/
+.vs/
+*.user
+TestResults/

@@ -1,0 +1,6 @@
+{
+  "description": "動作確認済みのゲームのバージョン情報（原文は含まない。plugins.js のハッシュ値と Steam のビルドIDのみ）",
+  "appId": "635850",
+  "knownBuildIds": ["2476493"],
+  "knownPluginsJsSha256": ["0115e25b59a5ef952196bd1ec68748630dcd3173427a43beff82dd8edf714f13"]
+}

@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SentienceJP.Core/SentienceJP.Core.csproj" />
+    <Project Path="src/SentienceJP.Patcher/SentienceJP.Patcher.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/SentienceJP.Core.Tests/SentienceJP.Core.Tests.csproj" />
+    <Project Path="tests/SentienceJP.Patcher.Tests/SentienceJP.Patcher.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,28 @@
+# 依存パッケージ
+node_modules/
+
+# ビルド成果物（ペイロード・publish・配布Zip）
+dist/
+
+# 作業用フォルダ（各自のゲームから抽出した原文を含むため絶対に公開しない）
+work/
+
+# .NET のビルド出力
+patcher/**/bin/
+patcher/**/obj/
+*.user
+.vs/
+
+# その他
+*.log
+.DS_Store
+Thumbs.db
+
+# Claude Code のローカル設定（開発用サーバの起動設定など）
+.claude/
+
+# 書き込み途中で中断したときの一時ファイル（lib/json.ts の writeJson）
+*.tmp
+
+# merge の排他用のロックファイル（src/tools/merge.ts。異常終了で残った場合は削除してよい）
+translation/ja/.merge.lock

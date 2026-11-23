@@ -1,0 +1,32 @@
+<Project>
+  <!--
+    パッチツール配下の全プロジェクトに共通するビルド設定。
+    - nullable 参照型を有効にし、警告はすべてエラーとして扱う（厳密な型付けの徹底）。
+    - バージョン等の製品情報もここで一元管理する。
+  -->
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <!--
+      NuGet の脆弱性監査の警告は、警告のまま残し、エラーにはしない。
+      - NU1901〜NU1904（脆弱性が見つかった）: 新しい脆弱性情報が公開されただけで、コードを変えていないのにビルドが失敗する（再現性が崩れる）のを避けるため。
+      - NU1900（脆弱性データを取得できなかった）・NU1905（監査に使うソースが脆弱性データを提供していない）:
+        オフライン・社内プロキシ・nuget.org の一時的な障害など、外部の要因だけで復元とビルドが失敗するのを避けるため（AA-04）。
+        「データを取れなかった」ことを示すだけで、脆弱性の検出（NU1901〜NU1904）とは別物。警告としては引き続き表示される。
+    -->
+    <WarningsNotAsErrors>$(WarningsNotAsErrors);NU1900;NU1901;NU1902;NU1903;NU1904;NU1905</WarningsNotAsErrors>
+    <Deterministic>true</Deterministic>
+    <!--
+      アセンブリ・exe のバージョン。配布用のビルド（build.ps1）では、ペイロードの manifest.json の patchVersion を
+      -p:Version で渡して上書きする（exe のプロパティに表示されるバージョンをパッチのバージョンと一致させるため）。
+      ここの値は開発ビルド用の既定値。
+    -->
+    <Version>1.0.0</Version>
+    <Product>Sentience 日本語化パッチ（非公式）</Product>
+    <Company>SentienceJP (unofficial fan project)</Company>
+    <Copyright>Unofficial fan-made patch. Not affiliated with the game developer or publisher.</Copyright>
+    <NeutralLanguage>ja-JP</NeutralLanguage>
+  </PropertyGroup>
+</Project>
